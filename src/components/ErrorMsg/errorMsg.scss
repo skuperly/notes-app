@@ -1,0 +1,11 @@
+@import "../../styles/colors.scss";
+
+.ErrorMsg {
+  color: $danger-color;
+  text-align: center;
+
+  &:before {
+    content: "-";
+    visibility: hidden;
+  }
+}

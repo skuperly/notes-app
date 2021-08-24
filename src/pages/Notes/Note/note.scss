@@ -1,0 +1,20 @@
+@import "../../../styles/colors.scss";
+
+.Note {
+  &-topBtns {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-rightBtns {
+    display: flex;
+    gap: 15px;
+  }
+
+  &-editBtn {
+    background-color: $warning-color;
+  }
+  &-deleteBtn {
+    background-color: $danger-color;
+  }
+}

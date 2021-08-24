@@ -1,0 +1,10 @@
+.NoteView {
+  &-body {
+    white-space: pre-line;
+  }
+  &-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-transform: capitalize;
+  }
+}

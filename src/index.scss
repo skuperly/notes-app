@@ -1,0 +1,27 @@
+@import "./styles/colors.scss";
+
+body {
+  margin: 0;
+  color: $text-primary-color;
+  background: radial-gradient(
+    circle,
+    rgb(52, 52, 52) 18%,
+    rgba(62, 62, 62, 1) 95%
+  );
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1rem;
+  resize: none;
+}

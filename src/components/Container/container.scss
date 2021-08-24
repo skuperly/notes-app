@@ -1,0 +1,17 @@
+@import "../../styles/media.scss";
+
+.Container {
+  margin: auto;
+
+  @media screen and (max-width: $maxMobileScreen) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $maxTabletScreen) and (min-width: $maxMobileScreen) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: $maxTabletScreen) {
+    width: 1200px;
+  }
+}

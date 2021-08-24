@@ -1,0 +1,28 @@
+@import "../../styles/colors.scss";
+
+.Register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  &-root {
+    text-align: center;
+    width: 400px;
+  }
+
+  &-card {
+    align-items: center;
+  }
+  &-submitBtn {
+    background-color: $success-color;
+  }
+  &-title {
+    font-size: 2rem;
+    margin: 10px 0;
+    text-transform: capitalize;
+    color: $primary-color;
+  }
+  &-bottomText {
+    margin-top: 5px;
+  }
+}

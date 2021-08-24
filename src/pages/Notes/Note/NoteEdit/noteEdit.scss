@@ -1,0 +1,7 @@
+@import "../../../../styles/colors.scss";
+
+.NoteEdit {
+  &-submitBtn {
+    background-color: $success-color;
+  }
+}
